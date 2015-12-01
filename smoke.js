@@ -188,7 +188,7 @@
 			}
 		},
 		
-		finishbuildAlert: function (e, f, box) {
+		finishbuildAlert: function (e, f) {
 			smoke.listen(
 				document.getElementById('alert-ok-'+f.newid),
 				"click", 
